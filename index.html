@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+<h1>Password Generator</h1>
+<p>Instructions...</p>
+<div>
+<label>Password Length: <input type="number" id="length" min=8 max=128></lable><br>
+<label><input type="checkbox" id="upper">Uppercase</label><br>
+<label><input type="checkbox" id="lower">Lowercase</label><br>
+<label><input type="checkbox" id="char">Special Characters</label><br>
+<label><input type="checkbox" id="num">Numbers</label>
+</div>
+
+<button onclick="generate()">GENERATE PASSWORD</button>
+
+<div id="password">Stuff will show up here later!</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
