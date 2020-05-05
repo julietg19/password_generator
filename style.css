@@ -4,3 +4,27 @@ button {
   padding: 1em;
   margin: 1em;
 }
+
+body {
+  text-align: center;
+
+  background-color: whitesmoke;
+
+  border-style: solid;
+
+  border-color: white;
+}
+
+h1 {
+  border-style: solid;
+  background-color: pink;
+  color: white;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em;
+}
+
+#password {
+  padding: 1em;
+  margin: 1em;
+}
