@@ -28,3 +28,9 @@ h1 {
   padding: 1em;
   margin: 1em;
 }
+
+#passwordoptions {
+  text-align: left !important;
+  margin: auto;
+  width: 17%;
+}

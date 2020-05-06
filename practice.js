@@ -1,3 +1,5 @@
+
+
 function generate() {
   let length = document.getElementById("length").value;
   if (isNaN(length)) length = 16;
