@@ -33,4 +33,11 @@ h1 {
   text-align: left !important;
   margin: auto;
   width: 17%;
+  padding: 15;
+}
+
+P {
+  width: 30%;
+  margin: auto;
+  padding: 15px;
 }
